@@ -533,7 +533,7 @@ const Home = () => {
     <div className="space-y-3">
       <img
         src={frame}
-        alt=""
+        alt="image"
         className="w-16 h-16 mx-auto"
       />
       <h1 className="text-2xl font-bold">
@@ -547,7 +547,7 @@ const Home = () => {
     {/* Column 2 */}
     <div className="space-y-3">
      <img src={layer}
-        alt="icon"
+        alt="image"
         className="w-16 h-16 mx-auto"
       />
       <h1 className="text-2xl font-bold">
@@ -561,7 +561,7 @@ const Home = () => {
     {/* Column 3 */}
     <div className="space-y-3">
       <img src={vector}
-        alt="icon"
+        alt="image"
         className="w-16 h-16 mx-auto"
       />
       <h1 className="text-2xl font-bold">
