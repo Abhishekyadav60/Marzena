@@ -533,7 +533,7 @@ const Home = () => {
     <div className="space-y-3">
       <img
         src={frame}
-        alt="icon"
+        alt=""
         className="w-16 h-16 mx-auto"
       />
       <h1 className="text-2xl font-bold">
