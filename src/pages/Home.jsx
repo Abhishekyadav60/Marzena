@@ -19,8 +19,8 @@ import review1 from "../assets/images/review1.jpg";
 import review2 from "../assets/images/review2.jpg";
 import review3 from "../assets/images/review3.jpg";
 import frame from "../assets/images/frame.png";
-import Layer from "../assets/images/Layer.png";
-import Vector from "../assets/images/Vector.png";
+import layer from "../assets/images/layer.png";
+import vector from "../assets/images/vector.png";
 import insta1 from "../assets/images/insta1.jpg";
 import insta2 from "../assets/images/insta2.jpg";
 import insta3 from "../assets/images/insta3.jpg";
@@ -546,7 +546,7 @@ const Home = () => {
 
     {/* Column 2 */}
     <div className="space-y-3">
-     <img src={Layer}
+     <img src={layer}
         alt="icon"
         className="w-16 h-16 mx-auto"
       />
@@ -560,7 +560,7 @@ const Home = () => {
 
     {/* Column 3 */}
     <div className="space-y-3">
-      <img src={Vector}
+      <img src={vector}
         alt="icon"
         className="w-16 h-16 mx-auto"
       />

@@ -9,14 +9,14 @@ import visa from "../assets/icons/visa.png";
 import mastercard from "../assets/icons/mastercard.png";
 import apple from "../assets/icons/apple.png";
 import paypal from "../assets/icons/paypal.png";
-import Facebook from "../assets/icons/facebook.png";
+import facebook from "../assets/icons/facebook.png";
 import instagram from "../assets/icons/instagram.png";
 import linkedin from "../assets/icons/linkedin.png";
 import youtube from "../assets/icons/youtube.png";
 import visa1 from "../assets/icons/visa1.png";
 import google from "../assets/icons/google.png";
 import x from "../assets/icons/x.png";
-import elementLogo from "../assets/elements/elementlogo.png";
+import elementlogo from "../assets/elements/elementlogo.png";
 
 const Footer = () => {
   return (
@@ -42,13 +42,13 @@ const Footer = () => {
 
         {/* Brand */}
         <div>
-          <img src={elementLogo} alt="Element" className="w-35 mb-4" />
+          <img src={elementlogo} alt="Element" className="w-35 mb-4" />
           <p className="mt-4 text-sm text-[#5a5a5a]">
             The Dreamed One
           </p>
 
           <div className="flex flex-wrap gap-3 mt-6">
-            {[Facebook, instagram, linkedin, youtube, x].map(
+            {[facebook, instagram, linkedin, youtube, x].map(
               (Icon, i) => (
                 <div
                   key={i}
