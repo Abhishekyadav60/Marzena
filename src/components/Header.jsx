@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { menuItems } from "../data/products";
 
-import brandLogo from "../assets/brand-logo.png";
+import brandlogo from "../assets/brand-logo.png";
 import cart from "../assets/cart.png";
 import user from "../assets/user.png";
 import hart from "../assets/hart.png";
@@ -26,7 +26,7 @@ const Header = () => {
       />
 
       <div className="max-w-7xl mx-auto flex items-center justify-center px-4 py-4 relative z-10">
-        <img src={brandLogo} alt="Logo" className="w-40" />
+        <img src={brandlogo} alt="Logo" className="w-40" />
       </div>
      
       <div className="w-full mb-4 relative z-10">
