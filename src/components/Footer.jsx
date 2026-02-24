@@ -9,7 +9,7 @@ import visa from "../assets/icons/visa.png";
 import mastercard from "../assets/icons/mastercard.png";
 import apple from "../assets/icons/apple.png";
 import paypal from "../assets/icons/paypal.png";
-import facebook from "../assets/icons/facebook.png";
+import Facebook from "../assets/icons/facebook.png";
 import instagram from "../assets/icons/instagram.png";
 import linkedin from "../assets/icons/linkedin.png";
 import youtube from "../assets/icons/youtube.png";
@@ -48,7 +48,7 @@ const Footer = () => {
           </p>
 
           <div className="flex flex-wrap gap-3 mt-6">
-            {[facebook, instagram, linkedin, youtube, x].map(
+            {[Facebook, instagram, linkedin, youtube, x].map(
               (Icon, i) => (
                 <div
                   key={i}
