@@ -1,8 +1,8 @@
 import React from "react";
 
-import flowerLeft from "../assets/flower-left.png";
-import flowerTop from "../assets/flower-top.png";
-import flowerRight from "../assets/flower-right.png";
+import flowerleft from "../assets/flower-left.png";
+import flowertop from "../assets/flower-top.png";
+import flowerright from "../assets/flower-right.png";
 
 import amex from "../assets/icons/amex.png";
 import visa from "../assets/icons/visa.png";
@@ -22,19 +22,19 @@ const Footer = () => {
   return (
     <footer className="relative bg-[#e9dfd6] overflow-hidden">
       <img
-        src={flowerLeft}
+        src={flowerleft}
         alt="decor"
         className="absolute left-0 bottom-0 w-20 md:w-xs opacity-30 pointer-events-none"
       />
 
       <img
-        src={flowerTop}
+        src={flowertop}
         alt="decor"
         className="absolute left-10 top-0 w-52 md:w-screen opacity-20 pointer-events-none"
       />
 
       <img
-        src={flowerRight}
+        src={flowerright}
         alt="decor"
         className="absolute right-0 bottom-0 md:w-screen opacity-20 pointer-events-none"
       />

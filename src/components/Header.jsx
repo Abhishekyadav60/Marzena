@@ -6,8 +6,8 @@ import brandLogo from "../assets/brand-logo.png";
 import cart from "../assets/cart.png";
 import user from "../assets/user.png";
 import hart from "../assets/hart.png";
-import flowerTop from "../assets/flower-top.png";
-import flowerRight from "../assets/flower-right.png";
+import flowertop from "../assets/flower-top.png";
+import flowerright from "../assets/flower-right.png";
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -15,12 +15,12 @@ const Header = () => {
   return (
     <header className="w-full relative overflow-hidden">
       <img
-        src={flowerTop}
+        src={flowertop}
         alt="flower"
         className="absolute top-0 left-0 w-[464px] h-[453px] opacity-30 pointer-events-none"
       />
       <img
-        src={flowerRight}
+        src={flowerright}
         alt="flower"
         className="absolute top-0 right-0 w-[464px] h-[453px] opacity-30 pointer-events-none"
       />
