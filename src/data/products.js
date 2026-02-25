@@ -81,7 +81,7 @@ import review1 from "../assets/images/review1.jpg";
 import review2 from "../assets/images/review2.jpg";
 import review3 from "../assets/images/review3.jpg";
 import frame from "../assets/images/frame.png";
-import Layer from "../assets/images/Layer.png";
+import layer from "../assets/images/layer.png";
 import Vector from "../assets/images/Vector.png";
 import insta1 from "../assets/images/insta1.jpg";
 import insta2 from "../assets/images/insta2.jpg";
@@ -264,7 +264,7 @@ export const homeData = {
     },
     {
       id: 2,
-      image: Layer,
+      image: layer,
       title: "Easy Free Returns",
       desc:
         "Lorem ipsum sed in egestas blandit diam molestie volutpat egestas nisl facilisi.",
