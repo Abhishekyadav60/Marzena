@@ -82,7 +82,7 @@ import review2 from "../assets/images/review2.jpg";
 import review3 from "../assets/images/review3.jpg";
 import frame from "../assets/images/frame.png";
 import layer from "../assets/images/layer.png";
-import Vector from "../assets/images/Vector.png";
+import vector from "../assets/images/vector.png";
 import insta1 from "../assets/images/insta1.jpg";
 import insta2 from "../assets/images/insta2.jpg";
 import insta3 from "../assets/images/insta3.jpg";
@@ -271,7 +271,7 @@ export const homeData = {
     },
     {
       id: 3,
-      image: Vector,
+      image: vector,
       title: "Genuine Products",
       desc:
         "Lorem ipsum sed in egestas blandit diam molestie volutpat egestas nisl facilisi.",
